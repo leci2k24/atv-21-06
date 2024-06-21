@@ -1,0 +1,51 @@
+/*Resetar Css*/
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.content{
+    width: 30vw;
+    background-color: darkgray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.content img{
+    width: 70%;
+    margin-top: 50px;
+}
+#no{
+    background-color: red;
+    padding: 5px;
+    width: 50px;
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+}
+#yes{
+    background-color: green;
+    padding: 5px;
+    width: 50px;
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+}
+button:hover{
+    opacity: 0.7;
+}
+.btn-area{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
